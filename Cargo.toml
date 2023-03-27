@@ -14,7 +14,7 @@ documentation = "https://docs.rs/cita_trie"
 [dependencies]
 parking_lot = "0.12"
 rlp = "0.5"
-hasher = { version = "0.1", features = ["hash-keccak"] }
+hasher = { git = "https://github.com/Wodann/hasher", rev = "89d3fc9", version = "0.1", default-features = false, features = ["hash-keccak"] }
 
 [dev-dependencies]
 rand = "0.7"
